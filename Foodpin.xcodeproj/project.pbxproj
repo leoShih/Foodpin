@@ -8,20 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		B3A0FE091EB4B2500038644C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A0FE081EB4B2500038644C /* AppDelegate.swift */; };
-		B3A0FE0B1EB4B2500038644C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A0FE0A1EB4B2500038644C /* ViewController.swift */; };
 		B3A0FE0E1EB4B2500038644C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3A0FE0C1EB4B2500038644C /* Main.storyboard */; };
 		B3A0FE101EB4B2500038644C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3A0FE0F1EB4B2500038644C /* Assets.xcassets */; };
 		B3A0FE131EB4B2500038644C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3A0FE111EB4B2500038644C /* LaunchScreen.storyboard */; };
+		B3A0FE1B1EB4B3760038644C /* RestaurantTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A0FE1A1EB4B3760038644C /* RestaurantTableViewController.swift */; };
+		B3A0FE1D1EB4B9900038644C /* RestaurantTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A0FE1C1EB4B9900038644C /* RestaurantTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B3A0FE051EB4B2500038644C /* Foodpin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Foodpin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3A0FE081EB4B2500038644C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B3A0FE0A1EB4B2500038644C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B3A0FE0D1EB4B2500038644C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B3A0FE0F1EB4B2500038644C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B3A0FE121EB4B2500038644C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B3A0FE141EB4B2500038644C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3A0FE1A1EB4B3760038644C /* RestaurantTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestaurantTableViewController.swift; sourceTree = "<group>"; };
+		B3A0FE1C1EB4B9900038644C /* RestaurantTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestaurantTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +57,12 @@
 			isa = PBXGroup;
 			children = (
 				B3A0FE081EB4B2500038644C /* AppDelegate.swift */,
-				B3A0FE0A1EB4B2500038644C /* ViewController.swift */,
 				B3A0FE0C1EB4B2500038644C /* Main.storyboard */,
 				B3A0FE0F1EB4B2500038644C /* Assets.xcassets */,
 				B3A0FE111EB4B2500038644C /* LaunchScreen.storyboard */,
 				B3A0FE141EB4B2500038644C /* Info.plist */,
+				B3A0FE1A1EB4B3760038644C /* RestaurantTableViewController.swift */,
+				B3A0FE1C1EB4B9900038644C /* RestaurantTableViewCell.swift */,
 			);
 			path = Foodpin;
 			sourceTree = "<group>";
@@ -136,7 +139,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B3A0FE0B1EB4B2500038644C /* ViewController.swift in Sources */,
+				B3A0FE1B1EB4B3760038644C /* RestaurantTableViewController.swift in Sources */,
+				B3A0FE1D1EB4B9900038644C /* RestaurantTableViewCell.swift in Sources */,
 				B3A0FE091EB4B2500038644C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -299,6 +303,7 @@
 				B3A0FE191EB4B2500038644C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
